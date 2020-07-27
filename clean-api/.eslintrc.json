@@ -1,0 +1,20 @@
+{
+  "env": {
+      "browser": true,
+      "es2020": true
+  },
+  "extends": [
+      "standard-with-typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module",
+      "project": "./node/clean-api/tsconfig.json"
+  },
+  "plugins": [
+      "@typescript-eslint"
+  ],
+  "rules": {
+  }
+}
